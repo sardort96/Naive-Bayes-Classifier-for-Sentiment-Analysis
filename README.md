@@ -17,9 +17,9 @@ Travel is one of the fastest growing sectors and travel management companies are
 Everything starting from local experience down the list can be found in hotel reviews. With the advent of natural language processing, it is possible to classify reviews into positive and negative and suggest them in the search results as a criterion along with price and proximity. Sentiment analysis is used for text categorization task to split reviews into two based on the positive and negative orientation each reviewer expresses toward their experience. <br />
 Most of the classification tasks in language processing are accomplished with supervised machine learning. In supervised learning, the training data consists of a set of input that has target data. Target data is the answer the algorithm should produce. This is usually denoted as a set of data (x<sub>i</sub> , t<sub>i</sub> ), where x<sub>i</sub> are inputs that have corresponding targets t<sub>i</sub>.
 
-Supervised Classification Steps:
+**Supervised Classification Steps:**
 
-<p align="center"> <img src="images/image5.png" width="530" height="300"> </p>
+<p align="center"> <img src="images/image5.png" width="520" height="330"> </p>
 
 To be more descriptive with reviews in search results, we use part-of-speech tagging and retrieve adjective-noun pairs that describe reviewers’ experiences. These pairs can be used as a UI/UX feature and placed above each review saving readers’ time. If labels are describing something a user is not interested in, they can skip over and look at the next hotel in the search results without reading the entire review. The following figure shows a prototype of labels.
 
